@@ -49,6 +49,8 @@ ___
   
 <code>apt update</code>
 
+<code>apt install openvpn-as</code>
+
 
 После этого на Access Server GUI(ip+943 порт) от лица админа отключим TLS(/configuration/Advanced VPN), отключим поддержку UDP(/configuration/network settings),
 и создадим пользователя с паролем(new profile).
