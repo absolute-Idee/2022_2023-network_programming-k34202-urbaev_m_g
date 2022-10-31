@@ -23,9 +23,10 @@ ___
 
 #### 2. Ansible.
 
-2.1. Нужно создать файл hosts.ini в /etc/ansible в котором разместим информацию о локальных ip двух CHR.
+2.1. Нужно создать файл hosts в /etc/ansible в котором разместим информацию о локальных ip двух CHR.
 
-<img src="https://user-images.githubusercontent.com/67152968/197200806-00d96dc3-3726-4978-a4e9-67093c3df7e5.png" width="500"/>
+<img src="https://user-images.githubusercontent.com/67152968/199111161-90ff3fc3-9e9a-4c86-a021-fb2f73367869.png" width="500"/>
+
 
 
 2.2. Настройка SSH соединения для виртуальных машин.
@@ -59,12 +60,26 @@ ___
 
 Результат выполнения playbook:
 
-<img src="https://user-images.githubusercontent.com/67152968/199105514-1852c8bc-8bf5-4657-8664-bda332d4f6c7.png" width="700"/>
-
-<img src="https://user-images.githubusercontent.com/67152968/199106552-c673c106-03e9-4037-86b5-0209964438a6.png" width="700"/>
+<img src="https://user-images.githubusercontent.com/67152968/199105514-1852c8bc-8bf5-4657-8664-bda332d4f6c7.png" width="400"/><img src="https://user-images.githubusercontent.com/67152968/199106552-c673c106-03e9-4037-86b5-0209964438a6.png" width="600"/>
 
 
+2.4. Проверка на роутерах.
 
+Проверим создался ли пользователь.
+
+<img src="https://user-images.githubusercontent.com/67152968/199106932-4daacc66-079b-48b5-8b70-bfb9edde1dd0.png" width="900"/>
+
+Изменение времени отобразилось в консоли на обоих роутерах.
+
+<img src="https://user-images.githubusercontent.com/67152968/199107426-19711edb-9a4f-46be-b659-a28a04c97ded.png" width="900"/>
+
+Для проверки OSPF в winbox перейдем в /ip/neighbors и там должен появится сосед.
+
+<img src="https://user-images.githubusercontent.com/67152968/199107860-bec6c68f-5f1e-4aca-a8aa-57e5a789a52d.png" width="800"/>
+
+Для сохранения конфигурации используем команду из рисунка ниже:
+
+<img src="https://user-images.githubusercontent.com/67152968/199109381-f4e14931-d4ce-418f-ae95-288e8729c744.png" width="600"/>
 
 
 
