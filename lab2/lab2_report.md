@@ -47,6 +47,19 @@ ___
 
 <code>sudo apt install sshpass</code>
 
+2.3. Playbook
+
+Создадим первый playbook.yml файл в /etc/ansible. В качесте проверки соединения выведем информацию о роутерах с помощью "/system resource print". Также запишем команды, требующиеся для задания.
+
+Настройка NTP: https://smartadm.ru/mikrotik-ntp-server-sntp-client/
+
+Настройка OSPF: https://itproffi.ru/ospf-mikrotik-polnaya-instruktsiya-po-nastrojki-ospf-na-mikrotik/
+
+<img src="https://user-images.githubusercontent.com/67152968/199102670-560a7f3c-52bc-4604-b1b0-a44bc1b12061.png" width="700"/>
+
+
+
+
 
 
 
