@@ -82,6 +82,14 @@ ___
 <img src="https://user-images.githubusercontent.com/67152968/199109381-f4e14931-d4ce-418f-ae95-288e8729c744.png" width="600"/>
 
 
+___
+
+#### 3. Схема связи
+
+В draw.io была нарисована схема связи
+
+<img src="https://user-images.githubusercontent.com/67152968/199112114-ebfc74d6-fe1c-4c42-923a-db391bb2a4e3.png" width="600"/>
+
 
 
 
