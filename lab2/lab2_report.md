@@ -57,6 +57,15 @@ ___
 
 <img src="https://user-images.githubusercontent.com/67152968/199102670-560a7f3c-52bc-4604-b1b0-a44bc1b12061.png" width="700"/>
 
+Результат выполнения playbook:
+
+<img src="https://user-images.githubusercontent.com/67152968/199105514-1852c8bc-8bf5-4657-8664-bda332d4f6c7.png" width="700"/>
+
+<img src="https://user-images.githubusercontent.com/67152968/199106552-c673c106-03e9-4037-86b5-0209964438a6.png" width="700"/>
+
+
+
+
 
 
 
