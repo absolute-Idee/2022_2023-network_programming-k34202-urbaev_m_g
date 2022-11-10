@@ -20,7 +20,7 @@ ___
 
 ![image](https://user-images.githubusercontent.com/67152968/197190209-a8e2cf5e-2ddd-467e-bd68-de75162ce295.png)
 
-
+---
 #### 2. Ansible.
 
 2.1. Нужно создать файл hosts в /etc/ansible в котором разместим информацию о локальных ip двух CHR.
@@ -58,7 +58,7 @@ ___
 
 <img src="https://user-images.githubusercontent.com/67152968/199102670-560a7f3c-52bc-4604-b1b0-a44bc1b12061.png" width="700"/>
 
-Результат выполнения playbook:
+Результат выполнения playbook (команда ansible-playbook playbook.yml):
 
 <img src="https://user-images.githubusercontent.com/67152968/199105514-1852c8bc-8bf5-4657-8664-bda332d4f6c7.png" width="400"/><img src="https://user-images.githubusercontent.com/67152968/199106552-c673c106-03e9-4037-86b5-0209964438a6.png" width="600"/>
 
@@ -77,6 +77,10 @@ ___
 
 <img src="https://user-images.githubusercontent.com/67152968/199107860-bec6c68f-5f1e-4aca-a8aa-57e5a789a52d.png" width="800"/>
 
+Пропингуем роутеры в полученной локальной сети.
+
+<img src="https://user-images.githubusercontent.com/67152968/201069090-3918db1a-1f4c-4a7b-ac47-d33a83734b64.png"/>
+
 Для сохранения конфигурации используем команду из рисунка ниже. После этого в /files можной найти нужный нам файл и скачать на основную машину.
 
 <img src="https://user-images.githubusercontent.com/67152968/199109381-f4e14931-d4ce-418f-ae95-288e8729c744.png" width="600"/>
@@ -90,10 +94,10 @@ ___
 
 <img src="https://user-images.githubusercontent.com/67152968/199112114-ebfc74d6-fe1c-4c42-923a-db391bb2a4e3.png" width="600"/>
 
-
+---
 #### 4. Вывод
 
-В результате работы были настроены
+В результате работы были настроены два роутера через ansibe с удаленного сервера. Использоване Ansible удобно для настройки одинаковых конфигураций.
 
 
 
