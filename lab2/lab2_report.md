@@ -6,7 +6,7 @@ Group: K34202
 Author: Urbaev Maxim Gennadevich
 Lab: Lab2
 Date of create: 20.10.2022
-Date of finished: 
+Date of finished: 10.11.2022
 ___
 
 ## Цель работы
@@ -89,6 +89,11 @@ ___
 В draw.io была нарисована схема связи
 
 <img src="https://user-images.githubusercontent.com/67152968/199112114-ebfc74d6-fe1c-4c42-923a-db391bb2a4e3.png" width="600"/>
+
+
+#### 4. Вывод
+
+В результате работы были настроены
 
 
 
