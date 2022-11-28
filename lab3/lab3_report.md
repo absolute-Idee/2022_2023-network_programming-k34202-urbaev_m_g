@@ -30,6 +30,9 @@ ___
 
 <code>apt install redis-server</code>
 
+Полсе этого была выполнена установка netbox из репозитория: https://github.com/netbox-community/netbox/archive/v2.8.8.tar.gz и выполнены команды из рисунка ниже.
+
+![image](https://user-images.githubusercontent.com/67152968/204388037-8c9ee6cb-a960-4889-bde0-a8a578df44a4.png)
 
 
 ---
