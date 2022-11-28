@@ -26,6 +26,10 @@ ___
 
 ![image](https://user-images.githubusercontent.com/67152968/204386377-a7c028ba-07e0-417d-a867-07e948ae9587.png)
 
+Дальше установим redis:
+
+<code>apt install redis-server</code>
+
 
 
 ---
