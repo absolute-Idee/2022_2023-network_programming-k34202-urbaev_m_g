@@ -68,17 +68,17 @@ ___
 <code>sudo systemctl start netbox netbox-rq</code>  
 <code>sudo systemctl enable netbox netbox-rq</code>  
 
-Для настройки nginx были выполнены следующие команды:
-sudo apt install -y nginx
-sudo cp /opt/netbox/contrib/nginx.conf /etc/nginx/sites-available/netbox
+Для настройки nginx были выполнены следующие команды:  
+<code>sudo apt install -y nginx</code>  
+<code>sudo cp /opt/netbox/contrib/nginx.conf /etc/nginx/sites-available/netbox</code>
 
-После файл был отредактрирован, добавлен хост и удалены https server.
+После файл был отредактрирован, добавлен хост и удалены https server.  
 <img src=https://user-images.githubusercontent.com/67152968/205461094-e6961900-e2b9-4287-846c-d62b109c06c7.png width=400>
 
-
-sudo rm /etc/nginx/sites-enabled/default
-sudo ln -s /etc/nginx/sites-available/netbox /etc/nginx/sites-enabled/netbox
-sudo systemctl restart nginx
+Далее создадим символическую ссылку и перезапустим службу  
+<code>sudo rm /etc/nginx/sites-enabled/default</code>  
+<code>sudo ln -s /etc/nginx/sites-available/netbox /etc/nginx/sites-enabled/netbox</code>  
+<code>sudo systemctl restart nginx</code>  
 
 В итоге при переходе в браузере по ip открывается netbox, в который можно зайти под суперпользователем, который был создан ранее.
 
