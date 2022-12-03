@@ -86,5 +86,9 @@ ___
 
 
 ---
-## 2. Ansible.
+## 2. NetBox.
+
+Была добавлена следующая информация
+
+![image](https://user-images.githubusercontent.com/67152968/205461988-daa5638e-bfaf-4382-bf40-8f658eaee78e.png)
 
