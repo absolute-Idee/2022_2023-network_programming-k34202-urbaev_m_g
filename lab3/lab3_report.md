@@ -32,13 +32,9 @@ ___
 
 Полсе этого была выполнена установка netbox из репозитория: [https://github.com/netbox-community/netbox/archive/v2.8.8.tar.gz](https://github.com/netbox-community/netbox/releases/tag/v3.3.9) и выполнены команды из рисунка ниже.
 
-<img src="https://user-images.githubusercontent.com/67152968/204388037-8c9ee6cb-a960-4889-bde0-a8a578df44a4.png" width="500"/>
-
-По этому же туториалу была произведена настройка netbox (создание конфиг файла и его модификация).
-При первичной миграции базы данных и создания суперпользователя была выявлена ошибка, связанная с версией markupsafe.
-Гугл подсказал ответ:
-
-<img src="https://user-images.githubusercontent.com/67152968/204636778-d6c59a10-92de-4e50-85fd-8b63816a130f.png" width="500"/>
+>sudo wget https://github.com/netbox-community/netbox/archive/refs/tags/vX.Y.Z.tar.gz
+>sudo tar -xzf vX.Y.Z.tar.gz -C /opt
+>sudo ln -s /opt/netbox-X.Y.Z/ /opt/netbox
 
 После устранения этой ошибки 
 
