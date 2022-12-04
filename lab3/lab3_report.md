@@ -96,4 +96,6 @@ ___
 
 ![image](https://user-images.githubusercontent.com/67152968/205507210-18f2d4fe-d9ac-4f9d-afcb-8a56ddf9c890.png)
 
+После был скачен netbox_devices.csv файл с описанием девайсов.
+
 
