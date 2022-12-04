@@ -1,0 +1,3 @@
+Name,Status,Tenant,Site,Location,Rack,Role,Manufacturer,Type,IP Address,ID,Tenant Group,Platform,Serial number,Asset tag,Region,Site Group,Position (U),Rack face,Airflow,IPv4 Address,IPv6 Address,Cluster,Virtual chassis,VC Position,VC Priority,Comments,Contacts,Tags,Created,Last updated
+mikrotik1,Active,,maxurbaev,,,router,mikrotik,chr,172.27.225.82/20,1,,,,,,,,,,172.27.225.82/20,,,,,,,,,2022-12-03 21:01,2022-12-04 17:53
+mikrotik2,Active,,maxurbaev,,,router,mikrotik,chr,172.27.225.83/20,2,,,,,,,,,,172.27.225.83/20,,,,,,,,,2022-12-03 21:01,2022-12-04 17:53
