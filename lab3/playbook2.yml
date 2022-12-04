@@ -1,0 +1,27 @@
+- name: RouterOS take name
+  hosts: routers
+  gather_facts: false
+  tasks:
+   - name: Run a command
+     community.routeros.command:
+       commands:
+         - /system identity print
+     register: system_resource_print
+   - name: make yml format
+     ansible.builtin.shell:  echo '{{ system_resource_print }}'| grep -m1 -o '\[.*.]' | cut -d ","  -f1 | sed -e "s/^.//;s/.$//" > new_playbook1.yml
+
+- name: Put information to netbox
+  hosts: localhost
+  vars_files:
+    - /etc/ansible/new_playbook1.yml
+  tasks:
+    - name: Obtain list of devices from NetBox
+      netbox.netbox.netbox_device:
+        netbox_url: http://localhost
+        netbox_token: 36e6a305b6261847cba101e06333825b235d664c
+        data:
+          name: '{{ name }}'
+          device_type: chr
+          device_role: router
+          site: maxurbaev
+        state: present
