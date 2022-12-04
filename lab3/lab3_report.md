@@ -98,4 +98,41 @@ ___
 
 После был скачен netbox_devices.csv файл с описанием девайсов.
 
+## 3. Ansible Playbooks.
+
+Файл netbox_devices.csv Был перенесен на сервер с anible.
+
+Для начала создадим файл playbook1.yml и реализуем для проверки парсинг csv файла (сохраним название роутера в файл new_playbook1.yml, указав ID в качестве ключа)
+
+<img src=https://user-images.githubusercontent.com/67152968/205510422-8b90d7c8-a72c-4680-963a-e7e184dfd00b.png width=400>
+
+После playbook1 был выполнен и было записано сообщение с названием роутера: "router: mikrotik1"
+
+<img src=https://user-images.githubusercontent.com/67152968/205510109-a0c7e85e-810a-4166-a219-cecc0168538f.png width=700>
+
+Далее playbook1.yml был модифицирован для изменения имени устройства. В качестве нового имени для роутеров будет установлено название из netbox_devices.csv, которое спарсится в файл new_playbook1.yml.
+
+<img src=https://user-images.githubusercontent.com/67152968/205510609-cd561af1-0871-46c8-a81b-d47ba4e6da3d.png width=400>
+
+<img src=https://user-images.githubusercontent.com/67152968/205510886-366577b3-3f2b-4784-b701-f3b435b985ea.png width=600>
+
+<img src=https://user-images.githubusercontent.com/67152968/205510854-0a45e7b0-926f-4509-94b6-4bbcb1265870.png width=400>
+
+---
+
+Для обратной задачи по изменению данных в netbox через ansible был сгенерирвоан api токен в интерфейсе netbox.  
+Был создан следующий тестовый playbook  
+<img src=https://user-images.githubusercontent.com/67152968/205512361-4c701c3a-3ef2-46d6-9aa6-f6a31f33a00d.png width=400>
+
+После выполнения этого playbook в netbox был добавлен новый device
+
+![image](https://user-images.githubusercontent.com/67152968/205512456-20dc0e9b-8ce0-4dfb-b229-0b09606c0d7f.png)
+
+Был дописан playbook2.yml для сбора информации об имени устройства.
+
+![image](https://user-images.githubusercontent.com/67152968/205513441-7eaadbbe-f555-4a80-96ff-0109111cf000.png)
+
+После выполнения playbook на netbox в логах имеется информация о новом устройстве с именем из new_playbook.yml
+
+![image](https://user-images.githubusercontent.com/67152968/205513334-df20bcbd-ba38-4271-8942-262901ef4ebf.png)
 
