@@ -6,7 +6,7 @@ Group: K34202
 Author: Urbaev Maxim Gennadevich
 Lab: Lab3
 Date of create: 29.11.2022
-Date of finished: 
+Date of finished: 08.12.2022
 ___
 
 # Цель работы
@@ -142,7 +142,8 @@ ___
 ## Схема связи
 Со второй лабораторной она не сильно изменилась, так как netbox был установлен на той же машине, что и openvpn и ansible. Доступ к netbox обеспечиват nginx
 
-![image](https://user-images.githubusercontent.com/67152968/205514082-8a057e75-9b4c-47d3-921e-5be1d722ed51.png)
+![image](https://user-images.githubusercontent.com/67152968/206400381-d0c6744d-3572-482d-92a1-8736c375d01c.png)
+
 
 
 
