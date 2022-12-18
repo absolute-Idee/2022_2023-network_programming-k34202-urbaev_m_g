@@ -28,7 +28,7 @@ ___
 
 <img src = https://user-images.githubusercontent.com/67152968/208305560-22ac5fa9-0f18-4047-8061-8f69089d6017.png width=500>
 
-## 2. Implementing Basic Tunneling.
+## 2. Implementing Basic Forwarding.
 
 Для выполнения первого задания был запущен файл basic.p4. Пинг не проходит между свичами.
 
@@ -36,3 +36,14 @@ ___
 
 Была начата работа над дополнением файла при помощи документации: https://p4.org/p4-spec/docs/P4-16-v-1.2.3.html#sec-vss-arch  
 <img src = https://user-images.githubusercontent.com/67152968/208312288-9e20b036-0b1e-4d43-8a57-243e185f8f44.png width=400>
+
+Далее были изменены секции Ingress Processing и Deparser.
+
+В результате пинг сигнал проходит между h1 и h2ю
+
+<img src = https://user-images.githubusercontent.com/67152968/208313315-1e4af043-ddbf-424b-81dd-7148924b8941.png width=500>
+
+## 3. Implementing Basic Tunneling.
+
+В директориии ~/tutorials/exercises/basic_tunnel требовалось изменить файл basic_tunnel.p4
+
