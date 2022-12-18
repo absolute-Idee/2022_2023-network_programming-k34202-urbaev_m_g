@@ -34,3 +34,5 @@ ___
 
 <img src = https://user-images.githubusercontent.com/67152968/208311021-22902193-a857-4cd8-bb1b-d8e6738dc775.png width=500>
 
+Была начата работа над дополнением файла при помощи документации: https://p4.org/p4-spec/docs/P4-16-v-1.2.3.html#sec-vss-arch  
+<img src = https://user-images.githubusercontent.com/67152968/208312288-9e20b036-0b1e-4d43-8a57-243e185f8f44.png width=400>
