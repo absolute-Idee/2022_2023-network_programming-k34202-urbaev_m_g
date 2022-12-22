@@ -47,3 +47,8 @@ ___
 
 В директориии ~/tutorials/exercises/basic_tunnel требовалось изменить файл basic_tunnel.p4
 
+Были внесены изменения в файл basick_tunnel.p4. Далее в minilet была выполнена команда <code>xterm h1 h2</code>.
+
+В результате были открыты два терминала:
+
+![image](https://user-images.githubusercontent.com/67152968/209218428-6badda2e-b9d3-46f7-ae24-ac43771d3b4e.png)
