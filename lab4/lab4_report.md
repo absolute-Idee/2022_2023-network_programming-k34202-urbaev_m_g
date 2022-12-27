@@ -6,7 +6,7 @@ Group: K34202
 Author: Urbaev Maxim Gennadevich
 Lab: Lab4
 Date of create: 18.12.2022
-Date of finished: 
+Date of finished: 27.12.2022
 ___
 
 # Цель работы
